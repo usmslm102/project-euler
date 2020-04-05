@@ -29,8 +29,6 @@ function SieveOfEratosthenes() {
             prime.push(i);
         }
     }
-
-    console.log(prime.length);
 }
 
 SieveOfEratosthenes();
