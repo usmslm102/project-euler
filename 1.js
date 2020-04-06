@@ -4,6 +4,8 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 Find the sum of all the multiples of 3 or 5 below 1000.
 */
 
+var start = new Date().getTime();
+
 let total = 0;
 for (let i = 3; i < 1000; i++) {
 
@@ -13,3 +15,7 @@ for (let i = 3; i < 1000; i++) {
     }
 }
 console.log(total);
+
+var end = new Date().getTime();
+var time = end - start;
+console.log('Execution time: ' + time + 'ms');

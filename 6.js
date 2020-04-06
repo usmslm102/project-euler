@@ -11,6 +11,7 @@ Hence the difference between the sum of the squares of the first ten natural num
 Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 */
 
+var start = new Date().getTime();
 
 let n = 100;
 
@@ -25,3 +26,7 @@ for (let i = 1; i <= n; i++) {
 
 
 console.log((sumOfAll * sumOfAll) - sumOfIndividualSqaure)
+
+var end = new Date().getTime();
+var time = end - start;
+console.log('Execution time: ' + time + 'ms');

@@ -20,14 +20,13 @@ function pythagoreanTriplet(n) {
 
         for (let j = i; j < n; j++) {
 
-            for (let k = j; k < n; k++) {
-
-                if (i * i + j * j == k * k && i + j + k == n) {
-                    console.log(i, j, k);
-                    console.log(i * j * k);
-                    return;
-                }
+            let k = n - i - j;
+            if (i * i + j * j == k * k) {
+                console.log(i, j, k);
+                console.log(i * j * k);
+                return;
             }
+
         }
     }
 }

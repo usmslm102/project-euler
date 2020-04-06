@@ -4,6 +4,9 @@ A palindromic number reads the same both ways. The largest palindrome made from 
 
 Find the largest palindrome made from the product of two 3-digit numbers.
 */
+
+var start = new Date().getTime();
+
 function reverseNumber(num) {
     return parseInt(num.toString().split("").reverse().join(""));
 }
@@ -28,3 +31,7 @@ for (let i = 999; i >= 100; i--) {
 }
 
 console.log("Largest Palindrom of 2 three digit product is: " + largestPalindrom);
+
+var end = new Date().getTime();
+var time = end - start;
+console.log('Execution time: ' + time + 'ms');

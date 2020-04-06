@@ -5,6 +5,8 @@ By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that 
 What is the 10 001st prime number?
 */
 
+var start = new Date().getTime();
+
 let MAX_NUMBER = 1000000;
 
 let isPrime = new Array(MAX_NUMBER);
@@ -34,3 +36,7 @@ function SieveOfEratosthenes() {
 SieveOfEratosthenes();
 
 console.log(prime[10000]);
+
+var end = new Date().getTime();
+var time = end - start;
+console.log('Execution time: ' + time + 'ms');
