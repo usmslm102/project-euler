@@ -8,13 +8,11 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 */
 
 let a = 0;
-
 let b = 1;
 let sum = 0;
 let z = 0;
-while(z <= 4000000) {
 
-
+while (z <= 4000000) {
     z = a + b;
     a = b;
     b = z
