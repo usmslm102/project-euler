@@ -1,4 +1,5 @@
-# project euler problems
+# project euler problems  [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/usmslm102/project-euler)
+
 This repo contains project euler solutions in Javascript
 
 [**Problem 1:** Multiples of 3 and 5](./01.js)<br/>
