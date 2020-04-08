@@ -12,3 +12,4 @@ This repo contains project euler solutions in Javascript
 [**Problem 8:** Largest product in a series](./08.js)<br/>
 [**Problem 9:** Special Pythagorean triplet](./09.js)<br/>
 [**Problem 10:** Summation of primes](./10.js)<br/>
+[**Problem 11:** Largest product in a grid](./11.js)<br/>
